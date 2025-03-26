@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MAD assignment 2</string>
+
+    <color name="gray">#808080</color> <!-- Standard Gray -->
+
 </resources>
