@@ -19,11 +19,6 @@
 
         <activity
             android:name=".onBoardingScreen2"
-
-            android:exported="false" />
-
-        <activity
-            android:name=".onBordingScreen3"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
