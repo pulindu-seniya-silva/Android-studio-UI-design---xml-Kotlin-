@@ -13,7 +13,7 @@
     android:paddingEnd="1dp"
     android:paddingRight="1dp"
     android:paddingBottom="1dp"
-    tools:context=".onBordingScreen1">
+    tools:context=".onBordingScreen3">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -148,8 +148,8 @@
             android:id="@+id/textView3"
             android:layout_width="373dp"
             android:layout_height="40dp"
-            android:text="Talk, Complete and Improve🏆️"
-            android:textSize="27dp"
+            android:text="Community-Driven Learning 🗣️ "
+            android:textSize="26dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -167,7 +167,7 @@
             android:layout_marginEnd="1dp"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Challenge a partner in a voice call, speak in English, and let the game analyze your speech. Fewer mistakes"
+            android:text="Users can discuss lessons, share insights, and even participate in group study sessions. Engage with fellow learners to grow together!"
             android:textSize="18sp"
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -179,31 +179,31 @@
         <ImageView
             android:id="@+id/imageButton2"
             android:layout_width="365dp"
-            android:layout_height="286dp"
+            android:layout_height="283dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintHorizontal_bias="0.551"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.267"
-            app:srcCompat="@drawable/onboard1" />
+            app:layout_constraintVertical_bias="0.241"
+            app:srcCompat="@drawable/onboarding3" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"
+            android:text="Get started"
+            android:backgroundTint="@color/Accent"
             app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.905"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.919"
-            android:backgroundTint="@color/Accent"
-            />
+            app:layout_constraintVertical_bias="0.919"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
