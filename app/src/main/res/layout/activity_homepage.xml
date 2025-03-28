@@ -12,6 +12,7 @@
     android:paddingEnd="1dp"
     android:paddingRight="1dp"
     android:paddingBottom="1dp"
+    tools:ignore="all"
     tools:context=".onBoardingScreen2">
 
     <!-- App Header Card -->
@@ -286,7 +287,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/speaking" />
+                android:src="@drawable/speaking_practice" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -349,7 +350,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/lessons2" />
+                android:src="@drawable/find_friends" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -380,7 +381,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/find_friends" />
+                android:src="@drawable/find_friends4" />
 
             <TextView
                 android:layout_width="match_parent"
