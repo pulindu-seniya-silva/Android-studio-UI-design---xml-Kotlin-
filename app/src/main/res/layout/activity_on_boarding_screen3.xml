@@ -13,7 +13,7 @@
     android:paddingEnd="1dp"
     android:paddingRight="1dp"
     android:paddingBottom="1dp"
-    tools:context=".onBordingScreen3">
+    tools:context=".onBoardingScreen3">
 
     <LinearLayout
         android:id="@+id/linearLayout"
