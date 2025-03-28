@@ -5,15 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:padding="16dp"
     android:paddingLeft="1dp"
     android:paddingTop="1dp"
     android:paddingEnd="1dp"
     android:paddingRight="1dp"
     android:paddingBottom="1dp"
-    tools:ignore="all"
-    android:background="@drawable/background"
-    tools:context=".LoginActivity">
+    tools:context=".Login"
+    tools:ignore="all">
 
     <!-- App Header Card -->
     <androidx.cardview.widget.CardView
@@ -80,13 +80,19 @@
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
+    <!-- Login Form -->
+
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="291dp"
-        android:layout_marginTop="288dp"
+        android:layout_marginTop="280dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp">
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/textView6"
@@ -104,16 +110,16 @@
             android:layout_height="57dp"
             android:layout_marginTop="27dp"
             android:background="@drawable/edit_text_border"
+            android:cursorVisible="true"
             android:ems="20"
+            android:gravity="center_vertical"
             android:hint="@string/hint_username"
             android:inputType="text"
-            android:textColor="#000000"
-            android:textColorHint="#A9A9A9"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
-            android:gravity="center_vertical"
-            android:textSize="16sp"
-            android:cursorVisible="true" />
+            android:textColor="#000000"
+            android:textColorHint="#A9A9A9"
+            android:textSize="16sp" />
 
 
         <EditText
@@ -122,43 +128,45 @@
             android:layout_height="57dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/edit_text_border"
+            android:cursorVisible="true"
             android:ems="20"
+            android:gravity="center_vertical"
             android:hint="@string/hint_password"
-            android:inputType="text"
-            android:textColor="#000000"
-            android:textColorHint="#A9A9A9"
+            android:inputType="number"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
-            android:gravity="center_vertical"
-            android:textSize="16sp"
-            android:cursorVisible="true" />
+            android:textColor="#000000"
+            android:textColorHint="#A9A9A9"
+            android:textSize="16sp" />
 
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/Accent"
+            android:gravity="center"
             android:text="Log in"
             android:textSize="16dp"
             app:cornerRadius="0dp" />
-    </LinearLayout>
 
-    <!-- Login Form -->
+    </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
         android:layout_width="361dp"
         android:layout_height="215dp"
 
+        android:layout_marginBottom="52dp"
         android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         tools:context=".LoginActivity"
-        tools:ignore="all"
-        tools:layout_editor_absoluteY="595dp">
+        tools:ignore="all">
 
         <!-- Existing UI Elements -->
 
@@ -172,6 +180,7 @@
             app:layout_constraintTop_toBottomOf="@id/button2">
 
             <!-- Login with Google Button -->
+
             <Button
                 android:id="@+id/button_google"
                 android:layout_width="match_parent"
@@ -210,8 +219,7 @@
                 android:text="No account? Sign up"
                 android:textColor="@color/primary"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
