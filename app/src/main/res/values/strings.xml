@@ -3,4 +3,17 @@
 
     <color name="gray">#808080</color> <!-- Standard Gray -->
 
+    <string name="app_slogan">Connect with the world</string>
+    <string name="hint_username">Enter your username</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secondary">#DE4178</color>
+    <color name="primary">#3F51B5</color>
+    <color name="Accent">#8B0000</color>
+
 </resources>

@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:padding="16dp"
     android:paddingLeft="1dp"
     android:paddingTop="1dp"
@@ -13,6 +12,7 @@
     android:paddingRight="1dp"
     android:paddingBottom="1dp"
     tools:ignore="all"
+    android:background="@drawable/background"
     tools:context=".onBoardingScreen2">
 
     <!-- App Header Card -->
@@ -23,7 +23,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="15dp"
-        app:cardBackgroundColor="@color/primary"
+        app:cardBackgroundColor="@color/secondary"
         app:cardCornerRadius="24dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,16 +77,6 @@
                 android:contentDescription="Decorative image"
                 android:src="@drawable/img_2" />
 
-            <ImageView
-                android:id="@+id/decorativeImage2"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_above="@id/decorativeImage1"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="32dp"
-                android:layout_marginBottom="8dp"
-                android:contentDescription="Decorative image"
-                android:src="@drawable/img" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
@@ -121,7 +111,7 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeColor="@color/primary"
+                app:strokeColor="@color/secondary"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -135,7 +125,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:src="@drawable/ic_chat"
-                        app:tint="@color/primary" />
+                        app:tint="@color/Accent" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -143,7 +133,7 @@
                         android:layout_marginTop="8dp"
                         android:text="Start Chat"
                         android:textAlignment="center"
-                        android:textColor="@color/primary" />
+                        android:textColor="@color/Accent" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -175,7 +165,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Menue"
+                        android:text="Menu"
                         android:textAlignment="center"
                         android:textColor="@color/Accent" />
                 </LinearLayout>
@@ -185,7 +175,7 @@
                 android:layout_width="0dp"
                 android:layout_height="120dp"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/primary"
+                app:cardBackgroundColor="@color/secondary"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp">
 
@@ -222,7 +212,7 @@
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="16dp"
             app:cardElevation="4dp"
-            app:strokeColor="@color/primary"
+            app:strokeColor="@color/secondary"
             app:strokeWidth="1dp">
 
             <LinearLayout
@@ -236,7 +226,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Recent Activity"
-                    android:textColor="@color/primary"
+                    android:textColor="@color/secondary"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -245,7 +235,7 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="12dp"
-                    android:background="@color/primary" />
+                    android:background="@color/secondary" />
 
                 <!-- Recent Activity Items would be added here programmatically -->
                 <TextView
