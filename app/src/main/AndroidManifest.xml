@@ -40,6 +40,10 @@
 
         <activity android:name=".Speaking_practice" />
 
+        <activity android:name=".Product" />
+
+        <activity android:name=".Message" />
+
 
 
 

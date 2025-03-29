@@ -205,7 +205,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="Forgot Password?"
-                android:textColor="@color/primary"
+                android:textColor="@color/Accent"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
@@ -216,7 +216,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="No account? Sign up"
-                android:textColor="@color/primary"
+                android:textColor="@color/Accent"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 

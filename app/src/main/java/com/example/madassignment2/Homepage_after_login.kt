@@ -18,5 +18,17 @@ class Homepage_after_login : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnBuyLessons = findViewById<ImageView>(R.id.imageView11)
+        btnBuyLessons.setOnClickListener {
+            val intent = Intent(this, Product::class.java)
+            startActivity(intent)
+        }
+
+        val btnMessage = findViewById<ImageView>(R.id.imageView10)
+        btnMessage.setOnClickListener {
+            val intent = Intent(this, Message::class.java)
+            startActivity(intent)
+        }
+
     }
 }

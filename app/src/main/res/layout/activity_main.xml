@@ -25,6 +25,7 @@
         android:id="@+id/imageView5"
         android:layout_width="242dp"
         android:layout_height="158dp"
+        android:layout_marginTop="-15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -35,20 +36,20 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="357dp"
-        android:layout_height="324dp"
-        android:layout_marginTop="144dp"
+        android:layout_width="372dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="152dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/launch" />
+        app:srcCompat="@drawable/launch2" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Explore the healing power of Ayurveda!"
+        android:text="Unlock the power of mastering English!"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/bottom_left"
-        app:tint="@color/primary" />
+        app:tint="@color/secondary" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -83,6 +84,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/top_tight"
-        app:tint="@color/primary" />
+        app:tint="@color/secondary" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
