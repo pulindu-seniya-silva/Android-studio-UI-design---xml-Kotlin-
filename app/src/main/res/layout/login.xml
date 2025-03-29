@@ -83,16 +83,15 @@
     <!-- Login Form -->
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="350dp"
         android:layout_height="291dp"
         android:layout_marginTop="280dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.568"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView6"
@@ -141,7 +140,7 @@
 
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -158,12 +157,14 @@
         android:layout_width="361dp"
         android:layout_height="215dp"
 
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="40dp"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0"
         tools:context=".LoginActivity"
         tools:ignore="all">
 
@@ -172,11 +173,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/button2">
+            app:layout_constraintTop_toTopOf="parent">
 
             <!-- Login with Google Button -->
 

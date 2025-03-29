@@ -72,8 +72,8 @@
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/profile_image"
-                android:layout_width="88dp"
-                android:layout_height="86dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="6dp"
                 android:scaleType="centerCrop"
@@ -91,12 +91,10 @@
         android:layout_height="284dp"
         android:layout_marginTop="24dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/headerCard"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@id/headerCard">
 
         <!-- Quick Actions Row -->
         <LinearLayout
@@ -134,7 +132,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Start Chat"
+                        android:text="Ask inquiry"
                         android:textAlignment="center"
                         android:textColor="@color/Accent" />
                 </LinearLayout>
@@ -257,9 +255,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="374dp"
         android:layout_height="286dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mainContent">
 

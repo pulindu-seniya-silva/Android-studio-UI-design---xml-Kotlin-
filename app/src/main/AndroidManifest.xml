@@ -30,6 +30,17 @@
 
         <activity android:name=".onBoardingScreen3" />
 
+        <activity android:name=".Homepage" />
+
+        <activity android:name=".Login" />
+
+        <activity android:name=".Homepage_after_login" />
+
+        <activity android:name=".User_profile" />
+
+        <activity android:name=".Speaking_practice" />
+
+
 
 
         <meta-data

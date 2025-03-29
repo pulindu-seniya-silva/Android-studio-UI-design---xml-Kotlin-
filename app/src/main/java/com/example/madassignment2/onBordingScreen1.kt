@@ -13,7 +13,7 @@ class onBordingScreen1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_on_bording_screen1)  // Your new layout for the second screen
+        setContentView(R.layout.activity_on_bording_screen1)
 
         var onBoardindButton1 = findViewById<Button>(R.id.button1)
 
