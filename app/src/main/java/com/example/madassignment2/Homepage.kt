@@ -22,6 +22,30 @@ class Homepage : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        val btnSpeakingPractice = findViewById<ImageView>(R.id.imageView9)
+        btnSpeakingPractice.setOnClickListener {
+            val intent = Intent(this, Speaking_practice::class.java)
+            startActivity(intent)
+        }
+
+        val btnBuyLessons = findViewById<ImageView>(R.id.imageView11)
+        btnBuyLessons.setOnClickListener {
+            val intent = Intent(this, Product::class.java)
+            startActivity(intent)
+        }
+
+        val btnMessage = findViewById<ImageView>(R.id.imageView10)
+        btnMessage.setOnClickListener {
+            val intent = Intent(this, Message::class.java)
+            startActivity(intent)
+        }
+
+        val btnFindFriends = findViewById<ImageView>(R.id.imageView12)
+        btnFindFriends.setOnClickListener {
+            val intent = Intent(this, Find_friends::class.java)
+            startActivity(intent)
+        }
     }
 
 }

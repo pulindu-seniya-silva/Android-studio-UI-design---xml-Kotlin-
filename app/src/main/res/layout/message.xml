@@ -68,14 +68,16 @@
             </LinearLayout>
 
             <!-- Decorative Images -->
-            <ImageView
-                android:id="@+id/decorativeImage1"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profile_image"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_alignParentEnd="true"
-                android:layout_marginEnd="16dp"
-                android:contentDescription="Decorative image"
-                android:src="@drawable/img_2" />
+                android:layout_marginEnd="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_pulindu"
+                app:shapeAppearanceOverlay="@style/CircleImage" />
+
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

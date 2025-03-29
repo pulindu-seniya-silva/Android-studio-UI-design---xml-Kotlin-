@@ -12,6 +12,7 @@
     android:paddingTop="1dp"
     android:paddingEnd="1dp"
     android:paddingRight="1dp"
+    tools:ignore="all"
     android:paddingBottom="1dp"
     tools:context=".onBoardingScreen3">
 

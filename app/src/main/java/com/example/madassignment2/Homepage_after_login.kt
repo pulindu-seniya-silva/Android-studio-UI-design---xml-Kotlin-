@@ -30,5 +30,10 @@ class Homepage_after_login : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnFindFriends = findViewById<ImageView>(R.id.imageView12)
+        btnFindFriends.setOnClickListener {
+            val intent = Intent(this, Find_friends::class.java)
+            startActivity(intent)
+        }
     }
 }

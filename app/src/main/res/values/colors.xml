@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-
-
     <color name="google">#DB4437</color>  <!-- Google Red -->
     <color name="facebook">#1877F2</color>  <!-- Facebook Blue -->
-
     <color name="white_primary">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="secondary">#DE4178</color>
     <color name="Accent">#3F51B5</color>
   <!--  <color name="Accent">#8B0000</color> -->
-
 
 </resources>
