@@ -337,9 +337,9 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:layout_margin="16dp"
-                android:src="@android:drawable/ic_menu_add"
-                app:backgroundTint="@color/secondary"
                 android:contentDescription="Create new chat"
+                android:src="@android:drawable/ic_menu_add"
+                app:backgroundTint="@color/Accent"
                 app:tint="@color/white" />
 
         </RelativeLayout>
