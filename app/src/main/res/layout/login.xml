@@ -149,8 +149,7 @@
             android:backgroundTint="@color/Accent"
             android:gravity="center"
             android:text="Log in"
-            android:textSize="16dp"
-            app:cornerRadius="0dp" />
+            android:textSize="16dp" />
 
     </LinearLayout>
 

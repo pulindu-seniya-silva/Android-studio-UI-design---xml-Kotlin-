@@ -10,6 +10,7 @@
     android:paddingStart="1dp"
     android:paddingLeft="1dp"
     android:paddingTop="1dp"
+    tools:ignore="all"
     android:paddingEnd="1dp"
     android:paddingRight="1dp"
     android:paddingBottom="1dp"
@@ -33,7 +34,7 @@
             android:id="@+id/cardView2"
             android:layout_width="357dp"
             android:layout_height="215dp"
-            android:backgroundTint="@color/primary"
+            android:backgroundTint="@color/secondary"
             app:cardCornerRadius="20dp">
 
             <ImageView
@@ -189,7 +190,7 @@
             app:srcCompat="@drawable/onboard1" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"

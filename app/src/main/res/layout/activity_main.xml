@@ -14,6 +14,7 @@
     android:paddingStart="1dp"
     android:paddingLeft="1dp"
     android:paddingTop="1dp"
+    tools:ignore="all"
     android:paddingEnd="1dp"
     android:paddingRight="1dp"
     android:paddingBottom="1dp"
